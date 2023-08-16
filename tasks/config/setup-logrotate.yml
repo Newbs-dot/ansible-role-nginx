@@ -1,6 +1,4 @@
 ---
-
-
 - name: (Amazon Linux/CentOS/Oracle Linux/RHEL) Install logrotate
   ansible.builtin.yum:
     name: logrotate
