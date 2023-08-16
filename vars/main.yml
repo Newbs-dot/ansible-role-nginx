@@ -2,7 +2,7 @@
 # Set the values allowed for various variables
 nginx_setup_vars: [install, uninstall, upgrade]
 
-nginx_install_from_vars: [nginx_repository, source, os_repository]
+nginx_install_from_vars: [nginx_repository]
 
 nginx_branch_vars: [mainline, stable]
 
@@ -49,14 +49,10 @@ zlib_version: 1.2.13
 openssl_version: 3.0.7
 
 # Supported NGINX Open Source dynamic modules
-nginx_modules_list: [geoip, image-filter, njs, perl, xslt]
+nginx_modules_list: []
 
 
 
-nginx_amplify_enable: false
-nginx_type: 'opensource'
-nginx_modules: []
-nginx_install_from: 'nginx_repository'
-nginx_manage_repo: true
+
 nginx_service_modify: false
 nginx_logrotate_conf_enable: true 
